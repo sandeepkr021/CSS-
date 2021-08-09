@@ -8,7 +8,6 @@
   grid-column: 1;
   text-align: center;
   grid-area: head;
-  background-image:url(/images/luna_medium.jpg);
   background-repeat:no-repeat;
 
 }
@@ -16,9 +15,7 @@
   grid-column: 1 ;
   text-align: center;
   grid-area: head;
-  background-image:url(/images/luna_medium.jpg);
-  background-repeat:no-repeat;
-
+background-color: white;
 }
 /*
  .hero-image1{
