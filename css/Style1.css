@@ -3,11 +3,11 @@
   grid-template-columns: 1fr;
 }
 
-.hero hero-unit-space-exploration{
+.hero-unit-space-exploration{
   background: url(/images/luna_large.jpg);
 
 }
-.hero hero-unit-moon-exploration{
+.hero-unit-moon-exploration{
   background: url(/images/final-frontier_large.jpg);
 
 }
