@@ -1,20 +1,11 @@
-.home{
+
+.grid-container {
   display: grid;
-  height: 100%;
-   margin: 0;
-  color: white;
-}
-.hero-copy1 {
-  /* The image used */
-  background-image: url(/images/final-frontier_large.jpg);
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+  background: url(/images/final-frontier_large.jpg);
 
-  /* Full height */
-  height: 50%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /*
  .hero-image1{
