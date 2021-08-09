@@ -1,12 +1,13 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 1068px;
- height: 712px;
+  grid-template-columns: 1fr;
+  height: 712px;
+ grid-template-areas: "head head";
 }
 .one {
   grid-column: 1;
   text-align: center;
+  grid-area: head;
   background: url(/images/final-frontier_medium.jpg);
   background-repeat:no-repeat;
 
@@ -14,6 +15,7 @@
 .two {
   grid-column: 1 ;
   text-align: center;
+  grid-area: head;
   background-image:url(/images/luna_medium.jpg);
   background-repeat:no-repeat;
 
