@@ -7,13 +7,15 @@
 .one {
   grid-column: 1;
   text-align: center;
-  background: url(/images/final-frontier_large.jpg);
+  background: url(/images/final-frontier_medium.jpg);
+  background-repeat:no-repeat;
 
 }
 .two {
   grid-column: 1 ;
   text-align: center;
-  background-image:url(/images/luna_small.jpg);
+  background-image:url(/images/luna_medium.jpg);
+  background-repeat:no-repeat;
 
 }
 /*
