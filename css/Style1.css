@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   width: 1068px;
  height: 712px;
+}
 .one {
   grid-column: 1;
   text-align: center;
