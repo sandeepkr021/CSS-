@@ -1,13 +1,26 @@
 .home{
   display: grid;
   grid-template-columns: 1fr;
+  color: white;
 }
-
-.hero-unit-space-exploration .hero-image1{
-  background: url(/images/luna_large.jpg);
+/*
+ .hero-image1{
+    background-image:url(/images/luna_small.jpg)
 
 }
 .hero-unit-moon-exploration .hero-image{
   background: url(/images/final-frontier_large.jpg);
+  background-image:url(/images/luna_small.jpg);
 
 }
+
+.hero-image{width:735px;height:490px;background-size:735px 490px;
+  background-repeat:no-repeat;background-image:url(/images/luna_small.jpg)}}
+  @media only screen and (max-width:735px)
+  and (-webkit-min-device-pixel-ratio:1.5),only screen
+   and (max-width:735px) and (min-resolution:1.5dppx),only screen
+   and (max-width:735px) and (min-resolution:144dpi){
+  .hero-unit-moon-exploration .hero-image{
+    background-image:url(/images/luna_small_2x.jpg)}}
+  .timeline{padding:60px 0}.timeline .section-headline{margin-bottom:60px}
+  */
