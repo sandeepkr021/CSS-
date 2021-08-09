@@ -8,7 +8,7 @@
   grid-column: 1;
   text-align: center;
   grid-area: head;
-  background: url(/images/final-frontier_medium.jpg);
+  background-image:url(/images/luna_medium.jpg);
   background-repeat:no-repeat;
 
 }
