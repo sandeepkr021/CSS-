@@ -15,10 +15,15 @@
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   display: flex;;
   height: auto;
+}
+
+.timeline-container > div{
+  display: flexbox;
+
 }
 
 /* Clear floats after the columns */
@@ -30,7 +35,7 @@
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-12 {
+  .column {
     width: 100%;
     display: flex;
     flex-flow: column;
