@@ -24,12 +24,11 @@
 
 .timeline-container > div{
   display: flexbox;
-
   justify-content: center;
 
 }
 .timeline-item{
-  width: 80%;
+  width: 70%;
   margin: 10px;
 }
 /* Clear floats after the columns */
@@ -57,8 +56,12 @@ background-image:url(/images/final-frontier_medium.jpg);
 background-image:url(/images/luna_medium.jpg);
 
 }
-
-.hero-container > div{
+.hero-container1 > div{
   display: flexbox;
+  margin: 0;
 
+}
+.hero-item{
+  width: 70%;
+  margin: 0;
 }
