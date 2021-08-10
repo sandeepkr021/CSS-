@@ -48,26 +48,21 @@
     flex-flow: column;
   }
 }
-.image-1{
-background-image:url(/images/final-frontier_medium.jpg);
-background-repeat: no-repeat;
-background-size: 50% 100%;
 
-
-}
-.image-2{
-background-image:url(/images/luna_medium.jpg);
-background-repeat: no-repeat;
-background-size: 50% 100%;
-
-
-}
 .hero-container1 > div{
   display: flexbox;
   margin: 0;
 
 }
 .hero-item{
+  background-image:url(/images/luna_medium.jpg);
+  background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left top, right top;
+    height: 550px;
+    margin: 0px;
+    color: white;
+
   width: 50%;
   margin: 0;
   height: auto;
