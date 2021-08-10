@@ -18,13 +18,12 @@
   width: 100%;
   padding-left:10px;
   display: flex;
-  height: auto;
+  height: auto
 
 }
 
 .timeline-container > div{
   display: flexbox;
-  margin: 0;
 
 }
 .timeline-item{
@@ -46,4 +45,22 @@
     display: flex;
     flex-flow: column;
   }
+}
+.hero-unit-space-exploration{
+background-image:url(/images/final-frontier_medium.jpg);
+background-repeat: no-repeat;
+background-size: 50% 100%;
+background-position: left top, right top;
+height: 550px;
+margin: 0px;
+color: white;
+}
+.hero-unit-moon-exploration{
+background-image:url(/images/luna_medium.jpg);
+background-repeat: no-repeat;
+background-size: 50% 100%;
+background-position: left top, right top;
+height: 550px;
+margin: 0px;
+color: white;
 }
