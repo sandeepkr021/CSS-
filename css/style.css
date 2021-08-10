@@ -19,6 +19,7 @@
   padding: 10px;
   display: flex;;
   height: auto;
+  margin: 30px;
 }
 
 .timeline-container > div{
