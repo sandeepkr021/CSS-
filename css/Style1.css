@@ -143,7 +143,7 @@ h3.darker {
 /* Create two equal columns that floats next to each other for timeline */
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   display: flex;;
   height: auto;
@@ -152,7 +152,8 @@ h3.darker {
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  width: 50%;
+   display: table;
   clear: both;
 }
 
