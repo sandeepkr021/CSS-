@@ -50,10 +50,16 @@
 }
 .image-1{
 background-image:url(/images/final-frontier_medium.jpg);
+background-repeat: no-repeat;
+background-size: 50% 100%;
+
 
 }
 .image-2{
 background-image:url(/images/luna_medium.jpg);
+background-repeat: no-repeat;
+background-size: 50% 100%;
+
 
 }
 .hero-container1 > div{
@@ -62,7 +68,7 @@ background-image:url(/images/luna_medium.jpg);
 
 }
 .hero-item{
-  width: 100;
+  width: 50%;
   margin: 0;
-  height: 550px;
+  height: auto;
 }
