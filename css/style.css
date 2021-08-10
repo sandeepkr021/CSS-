@@ -16,14 +16,15 @@
 .column {
   float: left;
   width: 100%;
-  padding: 10px;
-  display: flex;;
+  padding-left:10px;
+  display: flex;
   height: auto;
-  margin: 30px;
+
 }
 
 .timeline-container > div{
   display: flexbox;
+  margin: 0;
 
 }
 
