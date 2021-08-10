@@ -13,12 +13,12 @@
 }
 
 /* Create two equal columns that floats next to each other */
-.col-12 {
+.column {
   float: left;
   width: 50%;
-  display: flex;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  display: flex;;
+  height: auto;
 }
 
 /* Clear floats after the columns */
