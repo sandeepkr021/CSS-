@@ -51,10 +51,11 @@
 
 .hero-container1 > div{
   display: flexbox;
+  width: 100%;
   margin: 0;
 
 }
-.hero-item{
+.hero-container1{
    background-image:url(/images/luna_medium.jpg),url(/images/luna_medium.jpg);
   background-repeat: no-repeat;
   background-size: 50% 100%;
