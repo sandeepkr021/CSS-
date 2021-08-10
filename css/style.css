@@ -25,6 +25,8 @@
 .timeline-container > div{
   display: flexbox;
 
+  justify-content: center;
+
 }
 .timeline-item{
   width: 80%;
@@ -36,6 +38,7 @@
   display: table;
   clear: both;
   width: 100%;
+  margin-left: 10px;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -46,7 +49,7 @@
     flex-flow: column;
   }
 }
-.hero-unit-space-exploration{
+.space{
 background-image:url(/images/final-frontier_medium.jpg);
 background-repeat: no-repeat;
 background-size: 50% 100%;
@@ -55,12 +58,17 @@ height: 550px;
 margin: 0px;
 color: white;
 }
-.hero-unit-moon-exploration{
+.moon{
 background-image:url(/images/luna_medium.jpg);
 background-repeat: no-repeat;
 background-size: 50% 100%;
-background-position: left top, right top;
 height: 550px;
 margin: 0px;
 color: white;
+}
+
+.hero-container > div{
+  display: flexbox;
+  justify-content: center;
+
 }
