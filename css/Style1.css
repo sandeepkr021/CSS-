@@ -142,11 +142,16 @@ h3.darker {
 @media (min-width:1100px) { body {font-size:1.5rem;} }
 
 /* Create two equal columns that floats next to each other for timeline */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
+  width: 50%;
   padding: 10px;
-  height: auto;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
