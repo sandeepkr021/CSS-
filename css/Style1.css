@@ -5,7 +5,7 @@
 .hero-unit-moon-exploration {
   background-image:url(/images/final-frontier_medium.jpg),
                 url(/images/luna_medium.jpg);
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 50% 100%;
     background-position: left top, right top;
     height: 550px;
@@ -146,15 +146,13 @@ h3.darker {
   float: left;
   width: 100%;
   padding: 10px;
-  display: flex;;
   height: auto;
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  width: 50%;
-   display: table;
+  display: table;
   clear: both;
 }
 
