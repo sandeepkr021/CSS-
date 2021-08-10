@@ -70,8 +70,8 @@ h3.darker {
 }
 .hero-areas {
   column-gap: 0;
-  column-width: 30%;
-  column-count: 3;
+  column-width: 50%;
+  column-count: 2;
 }
 @media all and (max-width: 940px) {
   .column {
