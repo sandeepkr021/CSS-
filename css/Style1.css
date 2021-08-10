@@ -3,8 +3,8 @@
 }
 
 .hero-unit-moon-exploration {
-  background-image: url(./images/final-frontier_medium.jpg),
-   url(./images/luna_medium.jpg);
+  background-image: url('./images/final-frontier_medium.jpg'),
+   url('./images/luna_medium.jpg');
   background-repeat: no-repeat;
     background-size: 50% 100%;
     background-position: left top, right top;
