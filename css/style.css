@@ -88,16 +88,6 @@
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  height: 600px;
-  padding: 10px;
-
-}
 
 h1 {
   font-weight: 900;
