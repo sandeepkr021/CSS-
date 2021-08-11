@@ -54,7 +54,6 @@
   background-image: url(/images/luna_medium.jpg);
   background-repeat: no-repeat;
     background-size: 50% ;
-    background-position: left top, right top;
     height: 550px;
     margin: 0px;
     color: white;
@@ -66,7 +65,6 @@
     background-image: url(/images/luna_medium.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: left top, right top;
     height: 550px;
     margin: 0px;
     color: white;
