@@ -55,13 +55,15 @@
   margin: 0;
 
 }
-.space{
+.img1{
    background-image:url(/images/final-frontier_medium.jpg);
-  background-repeat: no-repeat;
-  background-size: 50% 100%;
-  width: 100%;
-  background-position: left top, right top;
-  height: 550px;
+   background-repeat: no-repeat no-repeat;
+   background-size: cover;
+     background-position: left top, right top;
+     height: 550px;
+     margin: 0px;
+     color: white;
+     width: 100%;
 }
 .moon{
    background-image:url(/images/luna_medium.jpg);
