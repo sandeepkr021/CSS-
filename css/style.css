@@ -22,13 +22,6 @@
 
 }
 
-.head-row .column {
-  flex: 50%;
-  padding: 10px;
-
-}
-
-
 .timeline-container > div{
   display: flexbox;
   justify-content: center;
@@ -78,4 +71,13 @@
     margin: 0px;
     color: white;
     width: 100%;
+}
+
+/* Clear floats after the columns */
+.head-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  margin-left: 10px;
 }
