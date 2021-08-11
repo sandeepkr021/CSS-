@@ -51,27 +51,6 @@
 /* updat bg*/
 
 
-/* Create two equal columns that floats next to each other */
-.head-column {
-  float: left;
-  width: 100%;
-  padding-left:10px;
-  display: flex;
-  height: auto
-}
-.head-container > div{
-  display: flexbox;
-  justify-content: center;
-
-}
-/* Clear floats after the columns */
-.head-row:after {
-  content: "";
-  display: table;
-  clear: both;
-  width: 100%;
-  margin-left: 10px;
-}
 
 .img1 {
   background-image: url(/images/luna_medium.jpg);
@@ -94,13 +73,34 @@
     color: white;
     width: 100%;
     background-color: yellow;
+  }* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.head-column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.head-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .head-column {
+    width: 50%;
   }
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    
-    .head-row {
-      width: 100%;
-      display: flex;
-      flex-flow: column;
-    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .head-column {
+    width: 100%;
   }
+}
