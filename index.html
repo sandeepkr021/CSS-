@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <title>Luna - The exploration of the moon - Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Luna - The exploration of the moon">
     <meta property="og:title" content="Luna - The exploration of the moon">
@@ -14,42 +13,49 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" type="./image/png" href="/favicon/favicon_32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon/favicon_16x16.png" sizes="16x16">
-
-    <link rel="stylesheet" href="./css/style.css" />
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style1.css" />
 </head>
 
 <body class='home'>
-  <div class="container-fluid">
-    <h1>Medium Grid</h1>
-    <p>The following example will result in a 25%/75% split on small devices and a 50%/50% split on medium (and large) devices. On extra small devices, it will automatically stack (100%).</p>
-    <p>Resize the browser window to see the effect.</p>
-    <div class="row">
-      <div class="col-sm-3 col-md-6" style="background-color:yellow;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-      <div class="col-sm-9 col-md-6" style="background-color:pink;">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+    <section class="hero hero-unit-moon-exploration">
+        <figure class="hero-image"></figure>
+        <div class="hero-copy">
+            <h2>Space</h2>
+            <h3>The Exploration of the moon.</h3>
+        </div>
+    </section>
+    <div class="container">
+      <h1>Grid Example</h1>
+      <p>This example demonstrates a 50%/50% split on small, medium, large and xlarge devices. On extra small devices, it will stack (100% width).</p>
+      <p>Resize the browser window to see the effect.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 bg-success">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="col-sm-6 bg-warning">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
     <section class="timeline">
-        <div class="timeline-container">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 class='section-headline'>The Timeline</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="column">
-                        <div class="timeline-item timeline-1">
+                <div class="col-12 col-lg-6">
+                    <div class="timeline-item timeline-1">
                         <img src="./images/timeline/pioneer.jpg" width='240' alt="Pioneer 0" class="timeline-item-image">
                         <div class="timeline-item-content">
                             <h3>Pioneer 0</h3>
@@ -66,11 +72,7 @@
                                 <br/> Luna E-1 No.1 was a 361-kilogram (796 lb) spacecraft which marked the first Soviet attempt to send a spacecraft to the Moon. It was also the first mission of the Luna programme. The spacecraft was intended to release 1 kilogram (2.2 lb) of sodium, in order to create a "comet" of the metal which could be observed from Earth, allowing the spacecraft to be tracked.</p>
                         </div>
                     </div>
-                  </div>
-                </div>
-                <div class="row">
-              <div class="column">
-                <div class="timeline-item timeline-3">
+                    <div class="timeline-item timeline-3">
                         <img src="./images/timeline/apollo-11.jpg" width='240' alt="Apollo 11" class="timeline-item-image">
                         <div class="timeline-item-content">
                             <h3>Apollo 11</h3>
@@ -78,7 +80,9 @@
                             <p>Apollo 11 was the spaceflight that landed the first two humans on the Moon. Mission commander Neil Armstrong and pilot Buzz Aldrin, both American, landed the lunar module Eagle on July 20, 1969, at 20:18 UTC. Armstrong became the first human to step onto the lunar surface six hours after landing on July 21 at 02:56:15 UTC; Aldrin joined him about 20 minutes later. They spent about two and a quarter hours together outside the spacecraft, and collected 47.5 pounds (21.5 kg) of lunar material to bring back to Earth. Michael Collins piloted the command module Columbia alone in lunar orbit while they were on the Moon's surface. Armstrong and Aldrin spent just under a day on the lunar surface before rejoining Columbia in lunar orbit.</p>
                         </div>
                     </div>
-                  <div class="timeline-item timeline-4">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="timeline-item timeline-4">
                         <img src="./images/timeline/luna-24.jpg" width='240' alt="Luna 24" class="timeline-item-image">
                         <div class="timeline-item-content">
                             <h3>Luna 24</h3>
@@ -86,11 +90,7 @@
                             <p>Luna 24 was an unmanned space mission of the Soviet Union's Luna programme. The last of the Luna series of spacecraft, the mission of the Luna 24 probe was the third Soviet mission to retrieve lunar soil samples from the Earth's moon (the first two sample return missions were Luna 16 and Luna 20). The spacecraft orbital dry mass was 4,800 kg (10,600 lb).</p>
                         </div>
                     </div>
-
-                  </div>
-                </div><div class="row">
-              <div class="column">
-            <div class="timeline-item timeline-5">
+                    <div class="timeline-item timeline-5">
                         <img src="./images/timeline/hiten.jpg" width='240' alt="Hiten" class="timeline-item-image">
                         <div class="timeline-item-content">
                             <h3>Hiten</h3>
@@ -112,7 +112,7 @@
             </div>
         </div>
     </section>
-
+    </main>
     <content1>
     <section class="gallery" aria-hidden='true'>
         <div class="container">
