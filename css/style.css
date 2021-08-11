@@ -12,15 +12,6 @@
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 100%;
-  padding-left:10px;
-  display: flex;
-  height: auto
-
-}
 
 .timeline-container > div{
   display: flexbox;
@@ -31,6 +22,16 @@
   width: 70%;
   margin: 10px;
 }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding-left:10px;
+  display: flex;
+  height: auto
+
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -50,27 +51,20 @@
 }
 /* updat bg*/
 
-.img1 {
-  background-image: url(/images/luna_medium.jpg);
-  background-repeat: no-repeat;
-    background-size: 50% ;
-    height: 550px;
-    margin: 0px;
-    color: white;
-    width: 100%;
+
+/* Create two equal columns that floats next to each other */
+.head-column {
+  float: left;
+  width: 100%;
+  padding-left:10px;
+  display: flex;
+  height: auto
 }
+.head-container > div{
+  display: flexbox;
+  justify-content: center;
 
-.img2 {
-
-    background-image: url(/images/luna_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    height: 550px;
-    margin: 0px;
-    color: white;
-    width: 100%;
 }
-
 /* Clear floats after the columns */
 .head-row:after {
   content: "";
@@ -79,12 +73,22 @@
   width: 100%;
   margin-left: 10px;
 }
-/* Create two equal columns that floats next to each other */
-.head-column {
-  float: left;
-  width: 100%;
-  padding-left:10px;
-  display: flex;
-  height: auto
+
+.img1 {
+  background-image: url(/images/luna_medium.jpg);
+  background-repeat: no-repeat;
+    background-size: cover ;
+    height: 550px;
+    margin: 0px;
+    color: white;
 
 }
+
+.img2 {
+    background-image: url(/images/luna_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin: 0px;
+    color: white;
+  }
