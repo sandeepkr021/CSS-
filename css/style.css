@@ -53,25 +53,25 @@
 
 .img1 {
   background-image: url(/images/luna_medium.jpg);
-  background-repeat: no-repeat no-repeat;
-    background-size: cover ;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top, right top;
     height: 550px;
     margin: 0px;
     color: white;
     width: 100%;
-    background-color: grey;
 
 }
 
 .img2 {
     background-image: url(/images/luna_medium.jpg);
-    background-repeat: no-repeat no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: left top, right top;
     height: 550px;
     margin: 0px;
     color: white;
     width: 100%;
-    background-color: yellow;
   }
   * {
   box-sizing: border-box;
