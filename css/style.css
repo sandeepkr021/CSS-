@@ -46,7 +46,6 @@
   .column {
     width: 100%;
     display: flex;
-    flex-flow: column;
   }
 }
 /* updat bg*/
@@ -98,7 +97,8 @@
   }
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .head-column {
+    
+    .head-row {
       width: 100%;
       display: flex;
       flex-flow: column;
