@@ -1,0 +1,183 @@
+.hero-unit-moon-exploration {
+  background-image: url("file:///C:/Users/user/Downloads/dev-test/images/final-frontier_small.jpg"),
+   url('file:///C:/Users/user/Downloads/dev-test/images/luna_small.jpg');
+  background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left top, right top;
+    height: 550px;
+    margin: 0px;
+    color: white;
+}
+
+/* updated css */
+.main, .side {
+  margin-bottom: 10px;
+}
+.main,
+.side {
+  padding: 10%;
+  border-radius: 10px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  height: 600px;
+  padding: 10px;
+
+}
+
+h1 {
+  font-weight: 900;
+  padding-top: 30%;
+  text-align: center !important;
+  font-size: 4rem;
+}
+
+h3 {
+  font-weight: 500;
+  text-align: center !important;
+  padding-bottom: 30%;
+  font-size: 2rem;
+}
+
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.container2 {
+  width: 100%;
+  max-width: 95%;
+  margin: 2rem auto;
+}
+h3 {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1;
+  font-family: sans-serif;
+}
+h3.darker {
+  color: rgba(81,85,91,0.38);
+}
+.columns {
+  column-gap: 0;
+  column-width: 30%;
+  column-count: 3;
+}
+@media all and (max-width: 940px) {
+  .columns {
+    column-count: 2;
+  }
+}
+@media all and (max-width: 540px) {
+  .columns {
+    column-count: 1;
+  }
+}
+.box-wrapper {
+  padding: 10px;
+}
+.box {
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box.one {
+  height: 200px;
+  background-color: #70c1b3;
+}
+.box.two {
+  height: 300px;
+  background-color: #ed6a5a;
+}
+.box.three {
+  height: 400px;
+  background-color: #f4f1bb;
+}
+/* css end */
+
+/* mobile screens */
+@media only screen and (max-width: 640px) {
+  .hero-copy-moon{
+  width: 50%;
+  }
+}
+
+/* tablet screens */
+@media only screen and (max-width: 768px) {
+  .hero-copy-moon{
+  width: 100%;
+  }
+}
+
+.timeline-container > div{
+  display: flexbox;
+  padding: 35px;
+}
+
+@media screen and (max-width: 531px) {
+  .row{
+  display: flex;
+   flex-flow: column-reverse;
+    }
+
+
+}
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+/* timeline view */
+* {
+  box-sizing: border-box;
+}
+.column-area {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row-area:after {
+  content: "";
+  display: flex
+  clear: both;
+}
+
+.row-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+.timeline-item{
+  height: 100%;
+
+}
+
+.column-area {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-area {
+    width: 100%;
+  }
+}
