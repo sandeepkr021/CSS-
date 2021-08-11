@@ -47,12 +47,9 @@
     display: flex;
   }
 }
-/* updat bg*/
-
-
 
 .img1 {
-  background-image: url(/images/luna_medium.jpg);
+  background-image: url(/images/final-frontier_medium.jpg);
   background-repeat: no-repeat;
     background-size: cover;
     background-position: left top, right top;
@@ -73,38 +70,3 @@
     color: white;
     width: 100%;
   }
-  * {
-  box-sizing: border-box;
-}
-
-/* Create four equal columns that floats next to each other */
-.head-column {
-  float: left;
-  display: flex;
-  width: 50%;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.head-row:after {
-  content: "";
-  display: flex;
-  clear: both;
-}
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .head-column {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .head-column {
-    width: 100%;
-    flex-direction: column;
-  }
-}
