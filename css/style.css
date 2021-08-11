@@ -59,7 +59,7 @@
     height: 550px;
     margin: 0px;
     color: white;
-    width: 50%;
+    width: 100%;
     background-color: grey;
 
 }
@@ -71,7 +71,7 @@
     height: 550px;
     margin: 0px;
     color: white;
-    width: 50%;
+    width: 100%;
     background-color: yellow;
   }
   * {
