@@ -47,33 +47,3 @@
     display: flex;
   }
 }
-
-/* Create four equal columns that floats next to each other */
-.head-column {
-  float: left;
-  display: flex;
-  width: 50%;
-  padding: 20px;
-}
-.img1 {
-  background-image: url(/images/final-frontier_medium.jpg);
-  background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left top, right top;
-    height: 550px;
-    margin: 0px;
-    color: white;
-    width: 100%;
-
-}
-
-.img2 {
-    background-image: url(/images/luna_medium.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left top, right top;
-    height: 550px;
-    margin: 0px;
-    color: white;
-    width: 100%;
-  }
