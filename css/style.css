@@ -15,7 +15,6 @@
 
 .timeline-container > div{
   display: flexbox;
-  justify-content: center;
 
 }
 .timeline-item{
@@ -81,6 +80,7 @@
 /* Create four equal columns that floats next to each other */
 .head-column {
   float: left;
+  display: flex;
   width: 50%;
   padding: 20px;
 }
@@ -88,7 +88,7 @@
 /* Clear floats after the columns */
 .head-row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
@@ -96,6 +96,8 @@
 @media screen and (max-width: 992px) {
   .head-column {
     width: 50%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -103,5 +105,6 @@
 @media screen and (max-width: 600px) {
   .head-column {
     width: 100%;
+    flex-direction: column;
   }
 }
